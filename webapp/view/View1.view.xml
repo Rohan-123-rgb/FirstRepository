@@ -1,9 +1,24 @@
-<mvc:View controllerName="GITDemo.GITDemo.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+<mvc:View controllerName="GITDemo.GITDemo.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" 
+xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
 	<Shell id="shell">
 		<App id="app">
 			<pages>
-				<Page id="page" title="{i18n>Title}">
-					<content></content>
+				<Page id="page" title="{i18n>title}">
+					<content><!--
+						<f:Form>
+							<f:formContainers>
+								<f:FormContainer>
+									<f:formElements>
+										<f:FormElement>-->
+							            	<Text text="City" />	
+							            	
+							            	<Input id="input1" showValueHelp="true" valueHelpRequest="onValueHelp"/>		
+							<!--			</f:FormElement>
+									</f:formElements>
+								</f:FormContainer>
+				     		</f:formContainers>	
+					    </f:Form>-->
+					</content>
 				</Page>
 			</pages>
 		</App>
